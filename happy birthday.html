@@ -1,0 +1,27 @@
+<!--this is the html file for natalya b day card -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday Natalya</title>
+	<link type="text/css" rel="stylesheet" href="natalya.css"/>
+</head>
+
+<body>
+	<p>Happy Birthday Natalya!</p>
+	<div class="wish">
+		   <img id="map_img" src="tumblr_inline_nlwm59XiJG1say8yb.gif" style="display: none;" width="400" height="400"/>
+			<input type="submit" id="Map" value="Make a WISH!" onclick="showImg()"/>
+	</div>
+	
+
+	<canvas id="world"></canvas>
+	<script src="happyBday.js"></script>
+	   <script>
+        function showImg() {
+			document.getElementById("Map").style.display = "none";
+            document.getElementById("map_img").style.display = "";
+        }
+    </script>
+</body>
+
+</html>

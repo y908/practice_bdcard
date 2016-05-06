@@ -1,0 +1,32 @@
+/* this is the css file for Natalya b day card */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #111;
+}
+
+p {
+	
+	text-align: center;
+	font-family: Garamond;
+	font-size: 100px;
+	color: #ff0072
+	
+}
+
+.wish {
+	text-align: center;
+	font-size: 1px;
+}
+
+#Map {
+	font-size: 40px;
+	
+}
+
+
+
